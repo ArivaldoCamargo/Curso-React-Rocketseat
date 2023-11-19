@@ -1,0 +1,30 @@
+.container {
+    width: 50%;
+    /* Ou qualquer largura desejada para o seu contêiner */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countTasks {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    font-size: 1rem;
+    justify-content: space-between;
+}
+
+.tasksList {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content:space-between;
+    background: var(--gray-600);
+    border: 0;
+    resize: none;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+    line-height: 1.4;
+    font-size: 1rem;
+
+}
